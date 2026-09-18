@@ -1,0 +1,1040 @@
+# Ordbok for Linjeforeningen Elektra
+#
+# Hver oppføring ser slik ut:
+#
+# - ord: Arrkom                 (påkrevd)
+#   nynorsk: Arrkjem            (valgfri)
+#   stikkord: Komité            (valgfri)
+#   id: arrkom                  (valgfri – lages automatisk fra ordet)
+#   definisjon: >-
+#     Komiteen som arrangerer fester. Ansvarlig for [[Åre]]-turen og
+#     *veldig* mye "moro".
+#
+# - [[Ord]] eller [[vist tekst|ord eller id]] lager en lenke til et annet ord.
+# - *tekst* blir kursiv, "tekst" blir sitat.
+# - Tom definisjon (definisjon: '') = ordet skjules i PDF-en til den fylles ut.
+# - Rekkefølgen her spiller ingen rolle; PDF-en sorteres alfabetisk automatisk.
+# - Linjer kan brytes fritt under "definisjon: >-" så lenge de er rykket inn.
+
+- ord: 009a44
+  nynorsk: '?'
+  stikkord: Hex-code
+  definisjon: >-
+    Hex-kode for den legendariske Elektra-grønn fargen. En farge som virkelig
+    skiller seg ut og som ikke ser bra ut på noe som helst klesplagg. Veldig
+    viktig at denne fargen brukes, da avvik fører til sterk kritikk av eldre
+    medlemmer.
+
+- ord: 9 hiroshimaer
+  nynorsk: 9 hiroshimaar
+  stikkord: Ritual
+  id: 9hiro
+  definisjon: >-
+    Antall [[Hiroshimaer|hiroshima]] kommende faddersjef må drikke på [[Cirkus]]
+    første dag i [[fadderuka]]. Startet som en uskyldig utfordring som har
+    eskalert år for år. Ble sist konsumert hele 8 stykk høsten 2025 av daværende
+    faddersjef.
+
+- ord: Abakuse
+  nynorsk: Abasuss
+  stikkord: Datadame
+  definisjon: >-
+    Slang for attraktiv dame fra linjeforeningen Abakus. Ofte snakket om,
+    sjeldent snakket til.
+
+- ord: Alt var bedre før
+  nynorsk: Alt var betre før
+  stikkord: Visdomsord
+  id: altvarbedrefør
+  definisjon: >-
+    Sekundet du er ferdig i [[hovedstyret|hs]] i Elektra, så får du en sterk
+    trang til å ytre denne setningen. Kan gjerne følges opp med en anekdote om
+    hvordan ting var i din tid, da ting virkelig var bra.
+
+- ord: Arne Midjo
+  nynorsk: Arne Midjo
+  stikkord: Forleser
+  definisjon: >-
+    Alle som gikk Elektra før de splitta opp linja har et komplisert forhold til
+    Arne. Han har/hadde en unik evne til å være primus motor for mye av det
+    faglige på studiet, samtidig som om han var totalt ubrukelig. Forvent å se
+    det slappe trynet hans hengende i meme format rundt omkring. På en annen
+    side så må man spørre seg om man egentlig har levd hvis ikke man har hørt
+    Arne forelese om for loops for tredje gang, klokka 8 på en mandag.
+
+- ord: Arrkom
+  nynorsk: arrkjem
+  stikkord: Komitee
+  definisjon: >-
+    Komiteen som står ansvarlig for å arrangere fester, sosiale kvelder og
+    lignende. Ikke minst ansvarlig for planlegging av [[Åre]]-turen. Den
+    desidert med kontroversielle komiteen i Elektra.
+
+- ord: Av med buksene
+  nynorsk: Av med buksane
+  stikkord: Tradisjon
+  definisjon: >-
+    En gammel og fast tradisjon blant alle Lineforeninger i Trondheim. Dersom en
+    person er på scenen under hvilket som helst ball, for hvilken som helst
+    grunn, er det vanlig at salen synger "Av med buksene" gjentatte ganger.
+    Dette helt til personen tar av seg buksene. Et umenneskelig press å skulle
+    stå imot, så de fleste blir stående på scenen i bokseren.
+
+- ord: Baren / Elekta Sky Pub
+  nynorsk: Barein
+  stikkord: Speak easy
+  id: baren
+  definisjon: >-
+    Offisielt er baren du finner på [[kontoret]] en saft og brusbar. Her kan
+    tørste medlemmer få seg en halvliter solo når du kanskje har drukket litt
+    for mye medbrakt alkohol. Uoffisielt er det den baren i Norges som er mest
+    lax på alders og promillegrense samt blandingsforhold mellom sprit og
+    blandevann.
+
+- ord: Barkom
+  nynorsk: Barkøm
+  stikkord: Illegal
+  definisjon: >-
+    På grunn av noe som vistnok heter "Alkoholloven" er barkom ikke en offisiell
+    del av Elektra. Det betyr at hvis de på eget insj selger alkohol på
+    [[Elektra kontoret|kontoret]] uten å sjekke et eneste legg, så kan ikke
+    Linjeforeningen noe for det. Har i hvertfall ansvaret for at mange ikke
+    husker hvorfor de har brukt 500 kroner på vipps dagen før.
+
+- ord: Battle of the Bands
+  nynorsk: Kampen mellam bandane
+  stikkord: Konkurranse
+  id: bob
+  definisjon: >-
+    BoB er en bandkonkurranse som avholdes på Sukkerhuset hvert vårsemester.
+    Elektras band, [[The Amplifiers]], vant i 2021.
+
+- ord: Bedkom
+  nynorsk: ''
+  stikkord: ''
+  definisjon: ''
+
+- ord: BK
+  nynorsk: Brugar Kongen
+  stikkord: Rasteplass
+  definisjon: >-
+    BK står for burgerking. Tror ikke Elektra har funnet på denne men for dere
+    som er fra bygda, kan denne være ny.
+
+- ord: Bodegaen
+  nynorsk: Bodeigaen
+  stikkord: Grisebinge
+  definisjon: >-
+    Bodegaen er nattklubben i kjelleren til [[Samfundet|samf]], og egentlig den
+    moralske kjelleren i Trondheim. Det skjer ugudelige ting der og ryktene sier
+    at det er der du ender opp hvis du er mad horny og klokka begynner å nærme
+    seg stengetid. Ryktene sier også at det var her coronaen virkelig fikk
+    fortfeste i Trondheim.
+
+- ord: Boden
+  nynorsk: Budjen
+  stikkord: Bare en bod egt
+  definisjon: >-
+    Boden er Elektras lagringsrom i kjelleren av [[Tapirbygget]]. Utrolig nok
+    kanskje det rommet som utklasser kontoret i helsefaren man utsetter seg for
+    ved å være der.
+
+- ord: Bryggelaget
+  nynorsk: ''
+  stikkord: ''
+  definisjon: ''
+
+- ord: Bæsje på verandaen
+  nynorsk: bæsjas på verandø
+  stikkord: Lowkey funny prank
+  id: bæsjepåverandaen
+  definisjon: >-
+    En episode som sementerte seg som Elektra lore på sekundet det skjedde. I
+    løpet av natten i [[Åre]] 2024 har ukjente personer bæsja på en tom pose
+    tortilla chips med salat på. De har deretter dandert dette på verandaen til
+    en annen hytte med et tilhørende glass rødvin. Denne hendelsen ble
+    udødeliggjort neste morgen da det på facebookgruppa til Åre-turen ble lagt
+    ut en post med bildebevis. Mottakeren var ikke så happy med frokosten de ble
+    servert.
+
+- ord: Cirkus
+  nynorsk: Sirkus
+  stikkord: Bar
+  definisjon: >-
+    En kultpub i Trondheim blant studenter. Serverer meget rimelig pils og den
+    beryktede drinken [[Hiroshima]].
+
+- ord: Dalje
+  nynorsk: Dølje
+  stikkord: Juggel
+  definisjon: >-
+    En dalje er egentlig en medalje du får når du har vært med på ball. Elektra
+    gir ut en [[imme-dalje|immeball]] og gir også ut dalje ved [[jubb]]. De som
+    er med i [[styret|hs]] drar på andre linjeforeningers ball og bruker
+    tusenvis av kroner for å kunne brife til andre som er i styrer at de har
+    vært på mange ball.
+
+- ord: Dobbeldecker Billys
+  nynorsk: To plans Billi
+  stikkord: Herremåltid
+  id: dobbeldecker
+  definisjon: >-
+    Hvis du noengang er ekstra sulten i [[kiosken]] så holder det ikke med én
+    Billys. Ja du kan spise to på vanlig måte, men det finnes en bedre måte. Ved
+    å første tine to Billys i mikroen så vidt, og så legge de oppå hverandre før
+    du smeller de i [[hummergrillen]], ja da får du et måltid du sjeldent vil
+    glemme. Du får crispy bunn kombinert med den gode billys smaken du kjenner
+    og elsker.
+
+- ord: DT
+  nynorsk: Under byen
+  stikkord: Klubb
+  definisjon: >-
+    DT er forkortelse for pianobaren Downtown. Et annet kult-utested for
+    studenter i Trondheim. DT er en rar miks av blodharry nattklubb i andre
+    etasje, og jovial pianobar i førsteetasje der en eller annen brite sitter å
+    spiller Elton John bangers til klokka 02. DT er legendarisk for sine DT
+    torsdager der studenter begynner helgen på torsdager og drar på karatefylla.
+    Ryktene sier at dette var et resultat av at folk dro på fylla med bedrifter
+    etter bedpresser.
+
+- ord: Durak
+  nynorsk: ''
+  stikkord: ''
+  definisjon: ''
+
+- ord: Elektra FK
+  nynorsk: ''
+  stikkord: ''
+  id: fk
+  definisjon: ''
+
+- ord: Elektrakiosken
+  nynorsk: Elektra kroa
+  stikkord: Café
+  id: kiosken
+  definisjon: >-
+    Elektrakiosken er sammen med alkohol, grunnet til at samtlige
+    Elektramedlemmer går opp 5 kg det første året i Trondheim. Kiosken gir
+    rimelig og lett tilgang til snacks og drikke gjennom hele semesteret.
+    Spesielt PK, Billys og Monster er en favoritt blant mange. Er notorisk kjent
+    for å aldri vite hvor mye den går i over/underskudd.
+
+- ord: Elektrakortet
+  nynorsk: Elektra kortu
+  stikkord: Heidis free pass
+  definisjon: >-
+    Elektra har til en hver tid flere kort som disponerer linjeforeningens
+    midler. Dette er for å lett kunne kjøpe inn ting i butikk og på nett.
+    Dessverre hender det at kortet misbrukes på alkoholholdige drikker på
+    [[Heidis]] eller andre steder. Stort sett av verkstedmedlemmer.
+
+- ord: Elektraplask
+  nynorsk: ''
+  stikkord: ''
+  definisjon: ''
+
+- ord: Elektrisk
+  nynorsk: Eleiktrisk
+  stikkord: Nasjonalsang
+  definisjon: >-
+    Den faste nasjonalsangen til Elektra. En udødelig klassiker skrevet av vår
+    tids kanskje største poeter; Marcus og Martinus. Har dype tradisjoner i
+    Elektra og ble faktisk forsøkt vedtektsfesta engang. Ble ikke noe av da
+    foreningen var redd for juridiske konsekvenser fra M og M .
+
+- ord: Elektrun
+  nynorsk: ''
+  stikkord: ''
+  definisjon: ''
+
+- ord: Energiøl
+  nynorsk: Styrkje øl
+  stikkord: Leskedrikk
+  id: energiøl
+  definisjon: >-
+    En av Aass, Norges eldste bryggeri, sin største skivebom. Smaker som om noen
+    har drukket usakelig mengder vodka redbull på afterksi, også svetta ut en
+    halvliter og tappa det på boks.
+
+- ord: Erling
+  nynorsk: Han Erling
+  stikkord: Grunnleggeren
+  definisjon: >-
+    Erling er navnet på grunnleggeren av Elektra. Han holdt kanskje Trondheims
+    råeste tale på [[jubball|jubb]] i 2022, før han gikk bananas blant damene
+    som et ekte Elektra medlem. Dessverre er det bred enighet om at det ballet
+    nok ble hans siste, men det finnes fortsatt de som håper på et comeback og
+    som benker han hvert [[genvors]].
+
+- ord: Fadderstyret
+  nynorsk: ''
+  stikkord: ''
+  definisjon: ''
+
+- ord: Fadderuka
+  nynorsk: Fadder veku
+  stikkord: Ildåp
+  definisjon: >-
+    Fadderuka er en periode på to lange uker der nye studenter skal ønskes
+    velkommen til Trondheim. I Elektra har vi lang tradisjon med å aldri la
+    førsteklassingene få mulighet til å ta en hviledag og heller satse på at de
+    blir utbrent før semesteret starter. Sånn holder vi snittet på master nede
+    sånn vi kun trenger 2 år med å ta opp fag for å komme inn.
+
+- ord: Fader Abraham
+  nynorsk: Pappa Abraham
+  stikkord: Vise
+  definisjon: >-
+    Fader Abraham er en annen merkelig tradisjon på ball. Alle de eksterne
+    styrene, altså styrer fra andre linjeforeningen enn den som arrangerer ball,
+    går opp på scenen og synger sangen 'Fader Abraham'. Med sangen er det en
+    rekke bevegelser som blir mer og mer flaue ut over sanger. Synges på stort
+    sett alle ball.
+
+- ord: Fuck Arrkom
+  nynorsk: Knull Arrkkjem
+  stikkord: Slagord
+  definisjon: >-
+    Som nevnt er [[Arrkom]] den desidert med kontroversielle komiteen. De andre
+    komiteene har derfor popularisert dette uttrykket for å vise sin avsky.
+    Toppet seg når arrkom ikke hadde avbestillingsforsikring for Åre 2022, som
+    hadde vært nyttig når Åre 22 nettopp ble avlyst grunnet Corona.
+
+- ord: Føtter
+  nynorsk: Føtti
+  stikkord: Softcore porn
+  id: føtter
+  definisjon: >-
+    Det florerer av fotbilder i Elektra. Ved gjentatte anledninger har et medlem
+    oppfordret andre til å sende fotbilder, og så fått det. Ingen er sikre på
+    hvordan dette oppstå men sannynligvis er dette noe [[verkstedet]] har
+    pønsket ut. Ryktene sier at enkelte i den komiteen er over snittet glad i
+    føtter.
+
+- ord: Gdansk
+  nynorsk: Gdansjki
+  stikkord: Diplomatisk krise
+  definisjon: >-
+    Byen [[Arrkom]] invaderte våren 2025 under dekke av "studietur". Det hele
+    startet med polsk [[tapas|tapashendelsen]] og endte med limousin-kapring,
+    shottebar og kollektiv blackout på en KFC. I ettertid har Gdansk innført
+    visumplikt for NTNU-studenter og hengt opp bilde av Vanessa Berg med teksten
+    "Do not let this woman in."
+
+- ord: Genfors
+  nynorsk: Genførsi
+  stikkord: Runkering
+  id: genvors
+  definisjon: >-
+    Genfors står for generalforsamling og er Elektras storting på en måte. To
+    ganger i året samles medlemmen for å godkjenne økonomien, ta opp saker og
+    velge inne nye styremedlemmer. Domineres stort sett av gamle styremlemmer
+    som klager over diverse, men har i de senere årene blitt mer tolererbart med
+    introduksjon av sjenk.
+
+- ord: Glory Shot
+  nynorsk: Glorisjott
+  stikkord: Drinkmetode
+  definisjon: >-
+    En fast del av barkartet på [[Elektra Sky Pub|baren]]. Serveres gjennom en
+    dildo som kommer ut av barens nedre del. Konsumeres ved å bøye seg frem, gi
+    fra seg verdigheten, og motta shoten direkte fra silikonbasert
+    serveringsarmatur.
+
+- ord: Gobo
+  nynorsk: Gubu
+  stikkord: Rom
+  definisjon: >-
+    Gobo, også kjent som elkraftrommet er et rom i tredje etasje i
+    [[Tapirbygget]]. Det er egentlig forbeholdt Eldig/elkraft, men er konstant
+    fylt opp av folk fra de andre linjene som bråker.
+
+- ord: HC
+  nynorsk: Hå Se
+  stikkord: Mommy <3
+  id: HC
+  definisjon: >-
+    HC er forkortelse for Høiskolens Chemikerforening, og er linjeforeningen til
+    Industriell Kjemi og Bioteknologi. Elektra har hatt et litt komplisert
+    familieforhold til de andre linjeforeningene, men HC er blitt den varme og
+    gode adoptiv/ste moren. Etter immeball 2023 er de også ansett som MILF, noe
+    som kan være forvirrende for en pubertal Linjeforening.
+
+- ord: Heidis
+  nynorsk: Heidis
+  stikkord: Bar
+  definisjon: >-
+    Heidis er et utested som de fleste kjenner til fra før av. I Trondheim
+    ligger det på Solsiden og er et sted der man kan risikere å møte på lokale
+    folk.
+
+- ord: Hermann Ranes
+  nynorsk: Hermann Ranes
+  stikkord: NTNUs Ivar Aassen
+  id: Hermann
+  definisjon: >-
+    Enda en foreleser elektramedlemmen har ambivalente følelser for. Karen er
+    foreleser i grunnleggende elektro og har som sitt personlige mål å
+    nynorskifisere elektrospråket. Det vil i praksis si at duden bare finner opp
+    egne ord og kjører no mercy på det i alle forelesninger. Det betyr at du kan
+    risikere å gå i forelesning på masternivå og bli jævlig forvirra fordi du
+    ikke vet hva en full bridge rectifer er. Du er vant til full bro likerettar.
+    For å bare toppe det enda mer, så er ikke karen fra et sted der de skriver
+    nynorsk engang. Han er fra fuckings Bærum ellerno.
+
+- ord: Himmelseng
+  nynorsk: Himmal seng
+  stikkord: Vise
+  definisjon: >-
+    Etter styrevors er det tradisjon at sangen "Himmelseng" synges på bussen på
+    vei til selve ballet. Himmelseng, med unntak av første og siste vers, har en
+    fast melodi men variable tekst. Teksten skal rime og ha et humoristisk
+    poeng. Litt av poenget er å finne på egen, men ofte søkes tekstene opp på
+    nettet. Som regel er også vedkommende som skal fremføre såpass brisen at
+    poenget aldri kommer helt frem.
+
+- ord: Hiroshima
+  nynorsk: Slik asiatisk
+  stikkord: Drink
+  definisjon: >-
+    Hiroshima er en legendarisk drink du kun får servert på [[Cirkus]]. Den
+    består av to shots med [[jäger]] og absint som står inntil hverandre over et
+    glass redbull. Du tar da absint shotten, før du chugger glasset med redbull
+    som jägershotten nå har falt oppi.
+
+- ord: Hovedstyret/HS
+  nynorsk: Hå Es
+  stikkord: ''
+  id: hs
+  definisjon: ''
+
+- ord: HS må gå
+  nynorsk: Hå Es må gå
+  stikkord: Visdomsord
+  id: hsmågå
+  definisjon: >-
+    En annet kjent og kjær setning som et tideligere styremedlem har lett for å
+    lire av seg. HS står for hovedstyre. Ved å be de gå, impliserer du at alt
+    var bedre før og at HS er så ubrukelige at de ikke lenger får sitte som HS.
+
+- ord: Hummergrillen
+  nynorsk: Hummigrillen
+  stikkord: Culanary vessel
+  definisjon: >-
+    Hummergrillen er et fancy navn på bordgrillen på Elektrakontoret. Den
+    grillen er grunnen til at brannvesnet i Trondheim alltid er on edge da den
+    har en lei tendens til å trigge brannalarmen. Kalles hummergrillen etter at
+    det ble oppdaget at grillen har en egen hummerfunksjon, for å tilbrede
+    hummer.
+
+- ord: Huskom
+  nynorsk: ''
+  stikkord: ''
+  definisjon: ''
+
+- ord: Immeball
+  nynorsk: Immu ball
+  stikkord: Trashy but classy
+  definisjon: >-
+    Immeball er en tradisjonsrik hendelse i alle linjeforeninger i Trondheim.
+    For å sette et ordentlig punktum for [[fadderperioden|fadderuka]] så
+    avholdes det ball for de nye studentene. Her kler man seg opp i de fineste
+    klærne sine, samles i flotte saler og spiser god mat. Veldig classy.
+    Samtidig er alle helt krise møkkings, noe som kanskje ikke er fullt så
+    classy.
+
+- ord: Jentekretsen
+  nynorsk: ''
+  stikkord: ''
+  id: jk
+  definisjon: ''
+
+- ord: Jubb
+  nynorsk: Jubb
+  stikkord: En happening
+  definisjon: >-
+    Hvert femte år er det tradisjon at det feires jubileum i linjeforeningene.
+    Her er Elektra intet unntak. Hvert femte år vil det arrangeres en hel uke
+    med aktiviteter for å feire linjeforeningen, som kuluminerer i et jubball.
+    Her deles ut en spesiell dalje og gamle medlemmer blir invitert.
+
+- ord: Jäger
+  nynorsk: Jegar
+  stikkord: Hellige dråper
+  id: jäger
+  definisjon: >-
+    Jäger er selvfølgelig forkortelse for Jägermeister. Den brune, tyske spriten
+    er en gjenganger i Elektra. Faktisk fikk baren tilsendt merch fra
+    Jäger-konsernet engang.
+
+- ord: Kaffeopprøret
+  nynorsk: Kaffeopprøri
+  stikkord: Folkeaskjon
+  id: kaffeopprøret
+  definisjon: >-
+    Kaffeopprøret var en kortvarig, men intens folkeaksjon utført av anonyme
+    aktører. Aksjonen gikk ut på å henge opp lapper ved kaffetrakteren som
+    krevde at kaffen skulle bli sterkere. Nærmere bestemt at skjemengden skulle
+    økes fra 2 til 3 skjeer. Denne aksjonen ble fort beseiret da et annet medlem
+    argumenterte med at dette ville føre til at gruten renner over ned i kanna.
+    Standarden for skjemengde forble uendret.
+
+- ord: Kafferatio
+  nynorsk: Kaffe forhold
+  stikkord: Hellig lov
+  definisjon: >-
+    Kaffen på kontoret skal brygges etter følgende mål: to store skjeer pulver,
+    og tyve (20) liter vann. Dette gir optimal smak og optimal prestasjon i
+    eksamenstiden.
+
+- ord: Kante
+  nynorsk: Kante
+  stikkord: Teknikk
+  definisjon: >-
+    Kanting er en fornorsket utgave av det engelske begrepet 'edging'. Det vil
+    si at en mann stimulerer penis til rett før utløsning, før han stopper. Slik
+    kan man unngå utløsning og opprettholde sin moral. Skal vistnok være en mye
+    praktisert teknikk i Elektra, selvom ekspertene tviler på dette.
+
+- ord: Kenya
+  nynorsk: Kenja
+  stikkord: Masterpiece
+  definisjon: >-
+    Kenya er navnet på den uødelige Karpe balladen fra Omar Sheriff EP'en. Et
+    tidligere styremedlem fikk, etter å ha sett Karpe i spektrum, hang up på
+    denne sangen. Det resulterte i at Kenya var en gjenganger som en slags
+    allsang/performence på flere Elektra arrangement.
+
+- ord: Kevin/udyret
+  nynorsk: Kevin
+  stikkord: Barnet vårt
+  id: kevin
+  definisjon: >-
+    Kevin er navnet på Elektras 200 kg høytaler på hjul. Alle fadderbarn har
+    garantert fått oppleve han. Kevin er opprinnelig en mer sofistikert utgave
+    av et lignende prosjekt som ble kalt udyret, og Kevin kalles derfor også
+    udyret. Er en bereist gutt som har vært i Åre (se Å) ved flere anledninger.
+
+- ord: Kontoret
+  nynorsk: Kunturet
+  stikkord: Hjertet
+  definisjon: >-
+    Kontoret er Elektras fellesareal i fjerde etasje i Tapirbygget. Kontoret er
+    et sted å spise lunsj, få gratis kaffe, handle i kiosken og spille kort.
+    Kontoret er også et sted for å stå i baris på bordet med 2 i promille.
+    Kontoret er hjertet av alt det sosiale i Elektra og vi er veldig heldig som
+    har tilgang til det.
+
+- ord: Kulturell Høyspentkveld
+  nynorsk: KHSK
+  stikkord: Høykultur
+  id: khsk
+  definisjon: >-
+    Dette arrangmentet er det helt klart vanskeligste å forklare. Det startet i
+    Elektras 15 års jubb uke der verkstedet tok på seg oppgaven om å arrangere
+    noe de kalte 'kulturell høyspentkveld'. Resultatet ble en kveld der alt
+    skulle være så fancy som mulig, men kun med 1 mm fasade før man så at det
+    var totalt cursed. Arrangementet ble igjen arrangert året etter, bare verre,
+    og man hadde en tradisjon.
+
+- ord: Lambo
+  nynorsk: Lambi
+  stikkord: Drikkevise
+  definisjon: >-
+    Lambo er en drikkevise med lange og dype tradisjoner i Trondheim. Visen er
+    mer en musikalsk form for drikkepress der et offer først velges ut. En eller
+    flere starter da på drikkevisen der verset varer helt til offeret har
+    drukket opp drikken sin. Offeret skal da svare med et eget vers og vende den
+    tomme drikkebeholderen over hodet. Dette som bevis på at alt er drukket opp.
+    I den ekstreme versjonen av teksten går visen videre til alle i rommet, men
+    ofte legger man den død etter en runde.
+
+- ord: Linjalpromo - gate
+  nynorsk: Linjal-reklame skandalen
+  stikkord: Hendelse
+  id: linjalpromo
+  definisjon: >-
+    Verkstedet valgte å promotere de egen designede linjalene de skulle selge i
+    kiosken, med å demonstrere at disse gjerne kunne brukes til å dandere linjer
+    med kokain på verkstedets instagram. Kokainet fra vel og merke mel. Dette
+    var det enkelte i [[HS|hs]] som reagerte på, noe som førte til at
+    verkstedsjef måtte slette posten. Dette skapte misnøye blant medlemsmassen,
+    der enkelte omtalte hendelsen som 'literally 1984'.
+
+- ord: Ludøl
+  nynorsk: Ludøl
+  stikkord: Brettspill
+  id: ludøl
+  definisjon: >-
+    Ludøl er en alkoholisert versjon av brettspillet Ludo. De offisielle reglene
+    ligger ute på nettet, men det går i bunn og grunn ut på å spille ludo med
+    ølglass. Øllet i glasses skal selvføgelig drikkes, noe som resulterer i en
+    del liter utover spillet. For å sette det i perspektiv, så blir du diska
+    dersom du spyr for tredje gang.
+
+- ord: Miksekom
+  nynorsk: ''
+  stikkord: ''
+  definisjon: ''
+
+- ord: Minttu
+  nynorsk: Min tu
+  stikkord: Likør
+  definisjon: >-
+    Minttu er et brennevin med mintsmak. Er en gjenganger i baren, og forøvrig
+    blant elektramedlemmer.
+
+- ord: Mordi
+  nynorsk: Skåleri mi
+  stikkord: Toast
+  definisjon: >-
+    Brøles som "skål" av arrkom-medlemmer særlig under studieturen til
+    [[Gdansk]] 2025.
+
+- ord: Morra di
+  nynorsk: Mordi
+  stikkord: Skjellsord
+  definisjon: >-
+    Universalsvar på alt. Brukes som punchline, avsporing eller rent verbalt
+    angrep. Hussjef kaster det rundt som om han får betalt per fornærmelse. Må
+    ikke forveksles med "[[mordi]]".
+
+- ord: Motstanden
+  nynorsk: ''
+  stikkord: ''
+  definisjon: ''
+
+- ord: Movinghead
+  nynorsk: Snurreljos
+  stikkord: Diskolykt
+  definisjon: >-
+    Jævlig fete partylys installert på kontoret våren 2025. Styrt av DMX og
+    QLC+, og flasher så hardt at du glemmer både navn, studie og promillegrense.
+
+- ord: Noen-kom
+  nynorsk: ''
+  stikkord: ''
+  definisjon: ''
+
+- ord: Nu Klinger
+  nynorsk: Nu klingar
+  stikkord: Vise
+  definisjon: >-
+    Nu Klinger er en tradisjonsrik studentersang som synges på de fleste ball ,
+    men også under for eksempel [[UKA]]. Nesten ingen kan versene, ca. 50% kan
+    noe av refrenget, og de som har vært mye på ball kan kanskje første vers og
+    refrenget utenat. Synges på alle ball likevel.
+
+- ord: Nutrix
+  nynorsk: Nu triks
+  stikkord: Slags
+  definisjon: >-
+    Nutrix er linjeforeningen for sykepleierstudenter ved NTNU Trondheim. Har en
+    spesiell historie med Elektra. De var kjæresteforeningen vår i flere år, og
+    vi arrangerte blant annet Åre og låvefest sammen. Nutrix slo opp med Elektra
+    i 2023 vi mail, rett før vi skulle til Åre sammen. Ikke lenge etter kom de
+    krypende tilbake, og forlovet seg med Elektra våren 2025.
+
+- ord: Omega
+  nynorsk: omegi
+  stikkord: Far..
+  definisjon: >-
+    Omega er NTNUs kanskje største, men også mest usympatiske linjeforening.
+    Elektra skal i utgangspunktet ha en slags far-sønn relasjon, men dette er
+    generelt forsømt på det groveste av Omega.
+
+- ord: Opptaket
+  nynorsk: Opptaki
+  stikkord: Null stress
+  definisjon: >-
+    Opptaket er et hemmelig rituale for å offisielt la studenter bli en den av
+    Linjeforeningen Elektra. Avholdes etter fadderuka, og før immeball.
+
+- ord: PILK
+  nynorsk: Pjølk
+  stikkord: Delikatesse
+  definisjon: >-
+    PILK er en delikatesse oppfunnet av verkstedet. Det består ganske enkelt av
+    et glass melk blandet med pepsi. Har blitt en meme over hele verden, men
+    dette var noe verkstedet av en eller annen grunn greide å komme opp med på
+    egenhånd.
+
+- ord: Pilkehvitt
+  nynorsk: Pjølkekvitt
+  stikkord: Drink
+  definisjon: >-
+    Dersom du savnet alkohol i PILK, så har verkstedet en løsning for deg. Ved å
+    legge til akehvitt som tredje ingrediens, får du tatt fyllesyken din til nye
+    høyder.
+
+- ord: Pils
+  nynorsk: Pils
+  stikkord: Kosthold
+  definisjon: >-
+    Trenger det mer forklaring?
+
+- ord: Pins
+  nynorsk: Pins
+  stikkord: Juggel
+  definisjon: >-
+    Pins er små metall dingser du fester i dressen og kjolen. Hver Linjeforening
+    har sin egen pin og det går sport i å samle mest mulig av de hvis du er med
+    i styret. På styrevors er det nemmelig vanlig å bytte pins. Ofte ender man
+    opp i drit kjedelige samtaler fordi du egentlig bare har lyst på pins men
+    ikke bare kan gå med en gang du har fått den.
+
+- ord: PK
+  nynorsk: Pe Kå
+  stikkord: Energi
+  definisjon: >-
+    PK er en staple i elektrakiosken. Det står for energidrikken power king og
+    er det som har fått en del Elektramedlemmer gjennom x antall
+    eksamensperioder.
+
+- ord: PR-kom
+  nynorsk: ''
+  stikkord: ''
+  definisjon: ''
+
+- ord: Rattling Bog
+  nynorsk: Rættling bågg
+  stikkord: Drikekvise
+  definisjon: >-
+    Rattling bog er en gjenganger på vors i Elektra. Det er en tradisjonell irsk
+    vise der sangeren etter hvert vers ramser opp en del ting. Denne listen blir
+    lengre og lengre utover sangen. Drikke biten kommer inn ved at man er nødt å
+    drikke så lenge sangeren ramser opp ting. Dette går på rundgang, og du må da
+    altså drikke mer jo senere i sangen man er.
+
+- ord: Ridder av Elektra
+  nynorsk: Riddar av Elektra
+  stikkord: Æresbetegnelse
+  id: ridder
+  definisjon: >-
+    Dersom du har gjort en ekstraordinær innsats for Elektra, kan du slås til
+    ridder av Thevenins tjenere. Dette skjer normalt ved imme eller jubbball.
+
+- ord: Rill og Rall
+  nynorsk: Rilli og ralli
+  stikkord: Møterom
+  definisjon: >-
+    Rill og Rall er to rom i fjerde etasje på Tapir bygget. De er ofte forbehold
+    forkursstudenter men brukes ofte av Elektrameldemmer til skolearbeid. Det er
+    også blitt et uoffisielt møterom for nesten all møtevirksomhet i Elektra. HS
+    har for eksempel faste styremøter der en gang i uka.
+
+- ord: Salt
+  nynorsk: Salt
+  stikkord: Rizze victims
+  definisjon: >-
+    Salt er linjeforeningen for lærere ved NTNU. De har over en lengre periode
+    vært en slags flørt for Elektra. Både mellom linjeforening, og mellom
+    enkelte privatpersoner i de respektive foreningene. Foreløpig har ikke
+    flørten resultert i noe fast men det er flere i Elektra som er håpefulle.
+
+- ord: Salty Gamlinga
+  nynorsk: Salte oldingar
+  stikkord: De som har nådd toppen
+  id: salty
+  definisjon: >-
+    Salty gamlinga, eller bare salty, er fellesbetegnelsen på alle avgåtte
+    styremedlem i Elektra. Det vil altså si at hvis du har sittet i hovedstyret,
+    så er du blitt en salty gamling idet du fratrer din stilling. Har som
+    tradisjon å lage kvalm på genfors, samt på styrefors før ball.
+
+- ord: Samf
+  nynorsk: Samfundjet
+  stikkord: Utested
+  definisjon: >-
+    Samf er forkortelse for Samfundet. Samfundet er et utested/hus/scene osv osv
+    som er drevet av og for studentene. Det er det store røde bygget på slutten
+    av Elgesetergate. Samf er noe alle studenter kommer til å få et forhold til
+    og er rett og slett en fantastisk sted.
+
+- ord: Snigurk
+  nynorsk: Snigauk
+  stikkord: Delikatesse
+  definisjon: >-
+    Snigurk er en rett bestående av sylteagurk og snickers. Disse to
+    ingrediensene legges lagvis som en sandwhich og du har da snigurk. Et
+    produkt som er, ikke overraskende nok, popularisert av verkstedet.
+
+- ord: Socialis
+  nynorsk: Sosialis
+  stikkord: Ex
+  definisjon: >-
+    Socialis er linjeforeningen for sosionomstudenter ved NTNU. Var kjæreste med
+    Elektra før [[Nutrix]].
+
+- ord: Sterilisering gjennom tazer
+  nynorsk: Sterilisering gjennam tazer
+  stikkord: Straff
+  definisjon: >-
+    Etter en hendelse i fadderuken 22, ble det besluttet at et sittende
+    styremedlem hadde utvist grov uaktsomhet. Dette medlemmet ble da, som
+    straff, tazet i sine testikler på scenen under 15 års jubb-ballet. Ved KHSK
+    23 ble den samme straffen, på det samme styremedlemmet(nå avgått),
+    auksjonert bort. Et annet tidligere styremedlem betalte gode penger for
+    dette privileget, noe som resulterte i en ny runde med tazeren under
+    immeball 23. Det er uvisst om dette har gitt varige mén.
+
+- ord: Styrebånd
+  nynorsk: Styrebønd
+  stikkord: Pynt
+  id: styrebånd
+  definisjon: >-
+    Styrebånd er et spesiellt bånd alle i styret har over skulderen ved ball.
+    Hver linjeforening har sine egne farger og sitt eget design. I Elektra
+    består det av et grønt bånd med en blå stripe. Man beholder båndet etter
+    styre, men syr da på et hvitt bånd for å signalisere at man ikke er i
+    sittende styre.
+
+- ord: Styregave
+  nynorsk: Styregævi
+  stikkord: Tradisjon
+  definisjon: >-
+    Det er vanlig at styrer har med seg en gave når de blir invitert på en annen
+    linjeforening sitt ball. Selvom det ikke er noe regler for hva slags gaver,
+    er det i Elektra blitt tradisjon for kreative og køddene gaver. Et eksempel
+    er en avstøpning av en herrerumpe, gitt til linjeforeningen Mannhullet.
+
+- ord: Styrevors
+  nynorsk: Styreførs
+  stikkord: Shit show
+  definisjon: >-
+    Styrevors er et vors der alle de eksterne styrene, pluss styret som
+    arrangerer ball, samles for å mingle og drikke før ball. Har en rekke
+    tradisjoner slik som bytting av [[pins]], [[styregaver|styregave]] og
+    ekstremt alkoholkonsum.
+
+- ord: Tapas-hendelsen
+  nynorsk: Tapas Hendinga
+  stikkord: Skandale
+  definisjon: >-
+    Tapas-hendelsen er en episode der sittende arrkom sjef brukte over 5000
+    kroner på en sosial tapasmiddag for sin kommitee bak øko sin rygg. Dette ga
+    vann på mølla for de som var skeptiske til Arrkoms økonomiske konsekvens for
+    Elektra. Hendelsen nevnes den dag i dag, hver gang Tapas nevnes.
+
+- ord: Tapirbygget
+  nynorsk: Tapirbygget
+  stikkord: Hjem
+  definisjon: >-
+    Tapirbygget, eller H3, er Elektras bygg. Her ligger alle de viktige felles
+    og arbeidarealene til Linjeforeningen. Som Elektramedlem bruker du
+    mesteparten av tiden din her.
+
+- ord: Tazer
+  nynorsk: Elektrosjokkvåpen
+  stikkord: Juridisk et våpen
+  definisjon: >-
+    Tazer er et våpen som bruker elektrisk støt som voldsmiddel. Verkstedet har
+    produserte flere av disse og også brukt de ved flere anledninger. Foreløpig
+    har dette ikke skapt varige mén, men tiden vil vise dette.
+
+- ord: Tek-kom
+  nynorsk: ''
+  stikkord: ''
+  definisjon: ''
+
+- ord: Tequila
+  nynorsk: Mexicans Ildvatn
+  stikkord: Fyllesyke på resept
+  definisjon: >-
+    Tequila er selvfølgelig den mexicanske brennevinen laget av agaveplanten.
+    Var favoritt blant HS en periode og 'Hva er ditt forhold til Tequila, var et
+    standard spørsmål når det skulle velges nye styremedlemmer.
+
+- ord: The Amplifiers
+  nynorsk: ''
+  stikkord: ''
+  definisjon: ''
+
+- ord: Thevenins Tjenere
+  nynorsk: Thevenins Tjenare
+  stikkord: Kult
+  id: thevenins
+  definisjon: >-
+    Thevenins tjenere er en strengt hemmelig orden som utpeker de medlemmene som
+    har gjort seg fortjent til å slås til Ridder av Elektra. Består av medlemmer
+    som allerede er ridder og er som sagt veldig hemmelig rundt sine prosesser.
+    Normalt utpekes nye riddere ved imme eller jubbball én gang i året.
+
+- ord: Timini
+  nynorsk: Timini
+  stikkord: Familie
+  definisjon: >-
+    Timini er linjeforeningen for studenter ved nanoteknologi ved NTNU. De har
+    også en slags familierelasjon til Elektra, men forfatteren husker ikke hva.
+
+- ord: Tu Dac Ho
+  nynorsk: 2Pac Hoe
+  stikkord: Sadist
+  definisjon: >-
+    Foreleser i nettverksprogrammering, det mest forhatte faget på hele
+    auto-studiet. Tu er mannen som klarte å gjøre TCP til en traume. På fritiden
+    liker han å designe eksistensielt ødellegende RATs som får deg til å tvile
+    på både din intelligens, livet generelt og om NTNU egentlig burde få lov til
+    å utdanne noen som helst.
+
+- ord: UKA
+  nynorsk: UKU
+  stikkord: Festival
+  id: UKA
+  definisjon: >-
+    UKA er en kjempstor kulturfestival som arrangeres i Trondheim annet hvert
+    år. Her holdes det konserter, store fester, og mange mange andre
+    arrangementer. UKA er 100 prosent drevet av frivillighet og har tette bånd
+    til Samfundet. Er definitivt noe å glede seg til som student.
+
+- ord: Utgulf
+  nynorsk: Utgulf
+  stikkord: Utgulf
+  definisjon: >-
+    Utgulf er et ikke så flaterende navn på en ansatt ved NTNU som har ansvar
+    for labbene i andre etasje på Tapir bygget. Han er notorisk kjent for å være
+    helt nazi på hvem som får bruke de og klikker i vinkel dersom så mye som en
+    promille av mat og drikke smugles inn på labben.
+
+- ord: Vaffelrøret
+  nynorsk: Våffelrevolusjon
+  stikkord: Kuppforsøk
+  id: vaffelrøret
+  definisjon: >-
+    Da HS høsten 2025 bestemte seg for å legge ned Noen-komiteen, den eneste
+    komiteen som ikke gjorde noe, klikka det for folket. I uke 46 ble kontoret
+    gjort om til revolusjonær frisone der vaffelrøre ble brukt til både våpen og
+    manifest.
+
+- ord: Veggen
+  nynorsk: Veggji
+  stikkord: '[REDAKTERT]'
+  definisjon: >-
+    Denne oppføringen er fjernet av sikkerhetshensyn etter gjentatte hendelser
+    som har *absolutt ingenting* med hull i veggen å gjøre. HS ber alle
+    medlemmer om å ikke engang tenke på saken.
+
+- ord: Verandaen
+  nynorsk: Verandi
+  stikkord: Utested
+  definisjon: >-
+    Verandaen er prime spot for afterski når Elektra er på tur i Åre. Ligger et
+    stykke unna der vi pleier og bo, og en lang rekke Elektramedlemmer har blåst
+    bort en tusenlapp og blacka før klokka har pasert 17.
+
+- ord: Verkstedet/EV
+  nynorsk: Verkstellet
+  stikkord: Kult
+  id: verkstedet
+  definisjon: >-
+    Elektraverkstedt, verkstedet eller EV er det rotete rommet som ligger i
+    tredje etasje i Tapir bygget. Her man medlemmer av Elektra mekke, lodde og
+    fikse ting. Verkstedet har et eget styre som har utviklet en unik og
+    urovekkende kultur. De har en egen intern humor og sjargong, for eksempel
+    ved at de gjerne vil ha tilsendt fotbilder.
+
+- ord: Vips
+  nynorsk: Vipps
+  stikkord: Rom
+  definisjon: >-
+    Navnet på Auto sitt rom på Tapirbygget. Her sitter svette regtek-entusiaster
+    og forsøker å overbevise seg selv om at livet gir mening via
+    Laplace-transformasjoner og MATLAB-plots. Rommet er offisielt reservert for
+    tredjeklasse og på våren dukker det mystisk opp vanntanker i hjørnet. Noen
+    hevder de er til autoprosjekt, mens andre sier de er fylt med tårer fra kont
+    i nettverksprogrammering.
+
+- ord: Vis fram tattarne
+  nynorsk: Vis frem tattarna
+  stikkord: Tradisjon
+  definisjon: >-
+    I samme gate som 'av med buksene' bare hakket mer grisete. Går altså ut på
+    at salen roper at en person, ofte kvinnelig, på scenen skal vise frem
+    tattarna. Dette stopper da ikke før tattarna er vist frem. Det er dog
+    sjeldent denne tas selvom det hender.
+
+- ord: Vivas
+  nynorsk: Vissvass
+  stikkord: Ubrukelig
+  definisjon: >-
+    Vivas er linjeforening for fornybaringneiør ved NTNU. De har til tider hatt
+    et slags rivaliserende forhold til Elektra, men i og med at de går et
+    klovnestudie så har Elektra hevet seg over dette i den siste tiden.
+
+- ord: Volleykom
+  nynorsk: ''
+  stikkord: ''
+  definisjon: ''
+
+- ord: WLED
+  nynorsk: Vledd
+  stikkord: Lifehack
+  definisjon: >-
+    Programvaren brukt til å styre samtlige 20-ish led-stiper på kontoret.
+    Standard metode for å vinne beste [[styregave]], bare legg inn
+    "Colortwinkles" og si at du har progga det selv.
+
+- ord: Økonomiansvarlig
+  nynorsk: Økochef
+  stikkord: Budsjettslave
+  id: økoansvarlig
+  definisjon: >-
+    Personen i HS som er satt til å holde styr på Elektras midler, og som derfor
+    tilbringer mesteparten av året i konstant eksistensiell panikk. Har tilgang
+    til [[Elektrakortet]], og bruker 90% av tiden på å mase om kvitteriner ingen
+    har. Erfaringsmessig utvikler de fleste økonomiansvarlige en lett hoste og
+    PTSD fra å høre ordet "Vipps".
+
+- ord: Øltårn
+  nynorsk: Ølbønn
+  stikkord: Drikkemonument
+  id: øltårn
+  definisjon: >-
+    Konstruksjon reist av tomme ølbokser og kollektiv trass midt under
+    [[genvors]]. Øltårnet bygges med kirurgisk presisjon, akkurat i det
+    ordstyrer prøver å lese opp sak 8.1.3 om budsjettjustering for kaffefilter.
+    Jo mer desperat forsøk på ro, jo høyere tårn.
+
+- ord: Åke Slutt at Bråke
+  nynorsk: Åk i helsike
+  stikkord: Sivil fiende
+  id: åke
+  definisjon: >-
+    Sur og permanent indignert nabo til styrehytta i [[Åre]], våren 2025. Fikk
+    psykisk sammenbrudd da noen velta skiene hans til den svært spesifikke
+    prisen "nittan tuson kronor". Har utviklet en refleksstyrt fryktreaksjon for
+    norske stemmer og uttalte med dødelig alvor "detta är inte Mallis". Har
+    siden blitt Elektras uoffisielle maskot for alle passiv-aggresive svensker.
+
+- ord: Åre
+  nynorsk: S
+  stikkord: Ski
+  id: åre
+  definisjon: >-
+    Åre er et skianlegg i Sverige der alle linjeforeninger drar på tur i løpet
+    av vinteren for å stå på ski og drikke usaklig mengder alkohol. Dette er en
+    tradisjon med dype røtter på NTNU og veldig gøy. Vanligvis betaler man for
+    at linjeforeningen organiserer buss, hytte og to dager med skikjøring.
+
+- ord: Åre razzia
+  nynorsk: År innbrot
+  stikkord: Potensiell forbrytelse
+  id: årerazzia
+  definisjon: >-
+    Siste natt i Åre 23 bestemte sittende PR sjef for å samle inn all materialet
+    han trengte for å lage en "Åre minnevideo". Ca. klokken 4 om natten valgte
+    PR sjef med en medhjelper å gå inn med kamera i alle hytter som ikke var
+    låst. Her traff de mye forskjellig, alt ifra folk som sov, folk som fortsatt
+    drakk og folk som ikke var verken fra NTNU eller fra Elektra. Denne skikken
+    ble gjentatt av samme person, nå ikke PR-sjef, neste år.
+
+- ord: Åremagasin
+  nynorsk: Årsblad
+  stikkord: Kollektiv psykose
+  id: åremagasin
+  definisjon: >-
+    Et dypt forstyrrende, men ekstremt gjennomarbeidet dokument produsert i
+    forbindelse med Åreturen. Inneholder alt fra grove horoskop til diagnoser på
+    ekte mennesker og detaljerte krigsforbrytelser utført av styret. Hvis du
+    nevnes i magasinet, anbefales det å kontakte både fastlege og jurist.
