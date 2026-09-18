@@ -110,9 +110,14 @@
     Elektras band, [[The Amplifiers]], vant i 2021.
 
 - ord: Bedkom
-  nynorsk: ''
-  stikkord: ''
-  definisjon: ''
+  nynorsk: Bedkjem
+  stikkord: Pengemaskin
+  definisjon: >-
+    Komiteen som får bedrifter til å betale for at studenter skal spise pizza og
+    late som de er interessert i trafostasjoner. Eneste komiteen i Elektra som
+    faktisk tjener penger, noe [[økonomiansvarlig|Økonomiansvarlig]] minner alle
+    andre komiteer på ved enhver anledning. Tradisjonen tilsier at man møter opp
+    på bedpres, spiser tre stykker pizza og forsvinner før minglinga.
 
 - ord: BK
   nynorsk: Brugar Kongen
@@ -140,9 +145,13 @@
     ved å være der.
 
 - ord: Bryggelaget
-  nynorsk: ''
-  stikkord: ''
-  definisjon: ''
+  nynorsk: Bryggjelaget
+  stikkord: Gjæringsprosjekt
+  definisjon: >-
+    En gjeng medlemmer som har bestemt seg for at øl fra butikken er for enkelt.
+    Brygger egen øl med varierende hell, og hver eneste batch presenteres som
+    "den beste til nå". Smaker som regel litt av eddik og veldig mye av
+    stolthet.
 
 - ord: Bæsje på verandaen
   nynorsk: bæsjas på verandø
@@ -199,15 +208,22 @@
     etter bedpresser.
 
 - ord: Durak
-  nynorsk: ''
-  stikkord: ''
-  definisjon: ''
+  nynorsk: Durak
+  stikkord: Kortspill
+  definisjon: >-
+    Russisk kortspill der ingen egentlig vinner, men alle taper dyrebar skoletid. Spilles på
+    [[kontoret]] i stedet for å gjøre øvinger, og reglene endrer seg etter hvem
+    som forklarer dem. Durak betyr idiot, en tittel mange Elektramedlemmer har
+    båret med stolthet i flere timer i strekk.
 
 - ord: Elektra FK
-  nynorsk: ''
-  stikkord: ''
+  nynorsk: Elektra FK
+  stikkord: Idrettslag
   id: fk
-  definisjon: ''
+  definisjon: >-
+    Elektras eget fotballag. Stiller til kamp i [[Elektra-grønt|009a44]] med
+    betydelig mer entusiasme enn kondisjon. Resultatet på banen er ikke så
+    viktig, det er tredje omgang som teller.
 
 - ord: Elektrakiosken
   nynorsk: Elektra kroa
@@ -230,9 +246,13 @@
     [[Heidis]] eller andre steder. Stort sett av verkstedmedlemmer.
 
 - ord: Elektraplask
-  nynorsk: ''
-  stikkord: ''
-  definisjon: ''
+  nynorsk: Elektraskvett
+  stikkord: Badeliv
+  definisjon: >-
+    Interessegruppen der Elektra prøver å bevise at elektrostudenter tåler vann,
+    stikk i strid med alt de har lært om strøm. Folk hopper uti, skriker litt og
+    kommer seg opp igjen. Ingen har blitt jorda ennå, men det er ikke fordi
+    ingen har prøvd.
 
 - ord: Elektrisk
   nynorsk: Eleiktrisk
@@ -244,9 +264,13 @@
     foreningen var redd for juridiske konsekvenser fra M og M .
 
 - ord: Elektrun
-  nynorsk: ''
-  stikkord: ''
-  definisjon: ''
+  nynorsk: Elektrlaup
+  stikkord: Mosjon
+  definisjon: >-
+    Elektras løpegruppe, for de medlemmene som vil bevise at de kan bevege seg lenger
+    enn fra [[Tapirbygget]] til [[Heidis]]. Deltakerne varmer opp med en [[PK]]
+    og avslutter med en øl, noe som gjør det til et av de mest balanserte
+    folkene i Elektra.
 
 - ord: Energiøl
   nynorsk: Styrkje øl
@@ -268,9 +292,14 @@
     som benker han hvert [[genvors]].
 
 - ord: Fadderstyret
-  nynorsk: ''
-  stikkord: ''
-  definisjon: ''
+  nynorsk: Faddarstyret
+  stikkord: Søvnmangel
+  definisjon: >-
+    Gjengen som planlegger [[fadderuka]] og sørger for at førsteklassingene
+    aldri får en hviledag. Ledes av faddersjefen, som må svelge [[9
+    hiroshimaer]] før uka i det hele tatt har kommet ordentlig i gang.
+    Kjennetegnes av et blikk som har sett for mye og en stemme som forsvant
+    andre dag.
 
 - ord: Fadderuka
   nynorsk: Fadder veku
@@ -405,9 +434,14 @@
 
 - ord: Hovedstyret/HS
   nynorsk: Hå Es
-  stikkord: ''
+  stikkord: Styret
   id: hs
-  definisjon: ''
+  definisjon: >-
+    Elektras øverste organ, valgt på [[genfors]] av folk som ikke helt visste
+    hva de stemte på. Har faste styremøter i [[Rill og Rall]], der saker som
+    budsjett for kaffefilter kan diskuteres i tre timer. Idet man går av, blir
+    man automatisk en [[salty gamling|Salty Gamlinga]] og begynner å si [[Alt
+    var bedre før]]. Se også [[HS må gå]].
 
 - ord: HS må gå
   nynorsk: Hå Es må gå
@@ -429,9 +463,13 @@
     hummer.
 
 - ord: Huskom
-  nynorsk: ''
-  stikkord: ''
-  definisjon: ''
+  nynorsk: Huskjem
+  stikkord: Vaskehjelp
+  definisjon: >-
+    Komiteen som har ansvaret for at [[kontoret]] ikke blir stengt av
+    Mattilsynet. En evig og tapt kamp mot oppvask, tomme bokser og mystiske
+    flekker ingen vil vedkjenne seg. Blir bare lagt merke til når de ikke har
+    gjort jobben sin.
 
 - ord: Immeball
   nynorsk: Immu ball
@@ -445,10 +483,15 @@
     classy.
 
 - ord: Jentekretsen
-  nynorsk: ''
-  stikkord: ''
+  nynorsk: Jentekrinsen
+  stikkord: Søsterskap
   id: jk
-  definisjon: ''
+  definisjon: >-
+    Samlingsplassen for jentene i Elektra, som er i et tydelig mindretall på et
+    studie der de fleste samtaler handler om [[kanting|Kante]],
+    [[fotbilder|Føtter]] eller hvem som fiste sist på [[Rill og Rall]].
+    Arrangerer egne kvelder, og er ifølge flere kilder det eneste stedet i
+    Elektra hvor noen har vasket hendene etter dobesøk.
 
 - ord: Jubb
   nynorsk: Jubb
@@ -574,9 +617,12 @@
     dersom du spyr for tredje gang.
 
 - ord: Miksekom
-  nynorsk: ''
-  stikkord: ''
-  definisjon: ''
+  nynorsk: Miksekjem
+  stikkord: Lydmafia
+  definisjon: >-
+    Komiteen som styrer lyd og musikk på arrangementene, og dermed også
+    stemningen. Tilbringer hele festen bak mikseren med hodetelefoner på det ene
+    øret og en øl i hånda.
 
 - ord: Minttu
   nynorsk: Min tu
@@ -601,9 +647,15 @@
     ikke forveksles med "[[mordi]]".
 
 - ord: Motstanden
-  nynorsk: ''
-  stikkord: ''
-  definisjon: ''
+  nynorsk: Motstanden
+  stikkord: Spøkelsesorkester
+  definisjon: >-
+    Elektras orkester, oppkalt etter den eneste komponenten alle på studiet
+    faktisk skjønner seg på. Er etter alt å dømme lagt ned, men ingen har sett
+    papirene på det og ingen tør å spørre. Før hver [[genfors|genvors]] går
+    derfor ryktet om at Motstanden skal gjenoppstå og marsjere inn midt under
+    budsjettgjennomgangen. Så langt har de aldri dukket opp, men det står
+    fortsatt en tom stol på første rad, bare i tilfelle.
 
 - ord: Movinghead
   nynorsk: Snurreljos
@@ -613,9 +665,13 @@
     QLC+, og flasher så hardt at du glemmer både navn, studie og promillegrense.
 
 - ord: Noen-kom
-  nynorsk: ''
-  stikkord: ''
-  definisjon: ''
+  nynorsk: Nokon-kjem
+  stikkord: Hvilepuls
+  definisjon: >-
+    Komiteen med det ærefulle formålet å ikke gjøre noen ting, og som leverte på
+    dette år etter år. Ble lagt ned av HS høsten 2025, noe folket svarte på med
+    [[Vaffelrøret]]. Er dermed den eneste komiteen i Elektras historie som har
+    skapt mer engasjement etter at den ble lagt ned enn mens den fantes.
 
 - ord: Nu Klinger
   nynorsk: Nu klingar
@@ -693,9 +749,13 @@
     eksamensperioder.
 
 - ord: PR-kom
-  nynorsk: ''
-  stikkord: ''
-  definisjon: ''
+  nynorsk: PR-kjem
+  stikkord: Propaganda
+  definisjon: >-
+    Elektras propagandaavdeling. Lager plakater, tar bilder på alle
+    arrangementer og drifter Instagram med en frihet [[hs]] angrer på omtrent en
+    gang i måneden. Har ifølge tradisjon fri adgang til alle ulåste hytter i
+    [[Åre]] klokka fire om natta, se [[Åre razzia]].
 
 - ord: Rattling Bog
   nynorsk: Rættling bågg
@@ -834,9 +894,13 @@
     har dette ikke skapt varige mén, men tiden vil vise dette.
 
 - ord: Tek-kom
-  nynorsk: ''
-  stikkord: ''
-  definisjon: ''
+  nynorsk: Tek-kjem
+  stikkord: Brukerstøtte
+  definisjon: >-
+    Komiteen som drifter nettsiden og alt annet i Elektra som har en ledning.
+    Får kun henvendelser når noe er ødelagt, og da gjerne i form av "funker
+    ikke" uten flere detaljer. Består av folk som kan forklare hva en server er,
+    men ingen spør.
 
 - ord: Tequila
   nynorsk: Mexicans Ildvatn
@@ -847,9 +911,13 @@
     standard spørsmål når det skulle velges nye styremedlemmer.
 
 - ord: The Amplifiers
-  nynorsk: ''
-  stikkord: ''
-  definisjon: ''
+  nynorsk: Forsterkarane
+  stikkord: Husband
+  definisjon: >-
+    Elektras eget band og det sterkeste beviset på at elektrostudenter kan ha
+    rytme. Vant [[Battle of the Bands]] i 2021, noe som fortsatt nevnes ved
+    enhver anledning. Navnet er selvfølgelig en elektroreferanse, fordi alt i
+    Elektra må være en elektroreferanse.
 
 - ord: Thevenins Tjenere
   nynorsk: Thevenins Tjenare
@@ -963,9 +1031,14 @@
     klovnestudie så har Elektra hevet seg over dette i den siste tiden.
 
 - ord: Volleykom
-  nynorsk: ''
-  stikkord: ''
-  definisjon: ''
+  nynorsk: Volleykjem
+  stikkord: Sand i ræva
+  definisjon: >-
+    Offisielt en komité for volleyball. I praksis en unnskyldning for å gå i bar
+    overkropp fra april til september og vise frem en kropp bygget på [[PK]] og
+    [[Dobbeldecker Billys|dobbeldecker]]. Ingen husker sist Volleykom vant et
+    sett, men alle husker hvor mye sand de fant i boksern etterpå. Etter én
+    sesong er det mer sand på [[kontoret]] enn det er snø i [[Åre]].
 
 - ord: WLED
   nynorsk: Vledd
