@@ -1,0 +1,74 @@
+name: Nytt ord fra skjema
+
+# A "Nytt ord" issue becomes a pull request that edits ordbok.yaml.
+# The issue body is untrusted input: it is only passed through an env var, never
+# interpolated into a shell command.
+
+on:
+  issues:
+    types: [opened, edited]
+
+concurrency:
+  group: nytt-ord-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  pr:
+    if: >-
+      github.event.issue.state == 'open' &&
+      (contains(github.event.issue.labels.*.name, 'nytt-ord') ||
+       startsWith(github.event.issue.title, 'Nytt ord:'))
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+
+      - name: Legg ordet inn i ordbok.yaml
+        id: entry
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: python tools/issue2entry.py
+
+      - name: Lag pull request
+        id: cpr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: nytt-ord/issue-${{ github.event.issue.number }}
+          commit-message: "Nytt ord: ${{ steps.entry.outputs.ord }} (#${{ github.event.issue.number }})"
+          title: "Nytt ord: ${{ steps.entry.outputs.ord }}"
+          body: |
+            Foreslått av @${{ github.event.issue.user.login }} i #${{ github.event.issue.number }} (${{ steps.entry.outputs.handling }}).
+            Rediger saken for å endre forslaget – denne PR-en oppdateres automatisk.
+
+            Closes #${{ github.event.issue.number }}
+          labels: nytt-ord
+
+      - name: Svar i saken
+        if: steps.cpr.outputs.pull-request-operation == 'created'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              ...context.repo, issue_number: context.issue.number,
+              body: `Takk! Forslaget ligger i #${{ steps.cpr.outputs.pull-request-number }} og kommer i ordboka når ordbokansvarlig har godkjent det.`,
+            })
+
+      - name: Si fra om feil
+        if: failure() && steps.entry.outputs.feil != ''
+        uses: actions/github-script@v7
+        env:
+          FEIL: ${{ steps.entry.outputs.feil }}
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              ...context.repo, issue_number: context.issue.number,
+              body: `Klarte ikke å legge inn ordet:\n\n> ${process.env.FEIL}\n\nRediger saken for å rette det, så prøver jeg igjen.`,
+            })

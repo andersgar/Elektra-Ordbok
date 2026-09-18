@@ -1,0 +1,41 @@
+name: Nytt ord
+description: Foreslå et nytt ord til Elektra-ordboka, eller en definisjon til et ord som mangler.
+title: "Nytt ord: "
+labels: ["nytt-ord"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fyll inn skjemaet, så lages det automatisk et forslag som ordbokansvarlig godkjenner.
+        Finnes ordet fra før (f.eks. uten definisjon), blir det oppdatert i stedet.
+
+        **Tips:** skriv `[[Åre]]` for å lenke til et annet ord i ordboka, eller `[[vist tekst|Åre]]`
+        hvis teksten skal være annerledes. `*kursiv*` og `"sitat"` fungerer også.
+  - type: input
+    id: ord
+    attributes:
+      label: Ord
+      description: Ordet eller uttrykket, slik det skal stå i ordboka.
+      placeholder: Arrkom
+    validations:
+      required: true
+  - type: input
+    id: nynorsk
+    attributes:
+      label: Nynorsk
+      description: Ordet «på nynorsk» (gjerne kreativt).
+      placeholder: Arrkjem
+  - type: input
+    id: stikkord
+    attributes:
+      label: Stikkord
+      description: Oppsummering i ett–to ord.
+      placeholder: Komité
+  - type: textarea
+    id: definisjon
+    attributes:
+      label: Definisjon
+      description: Den utfyllende forklaringen.
+      placeholder: Komiteen som står ansvarlig for å arrangere fester ...
+    validations:
+      required: true
