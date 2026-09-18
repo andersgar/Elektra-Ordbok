@@ -41,13 +41,19 @@
 
 \usepackage{hyperref}
 \usepackage{nameref}
+\urlstyle{same} % links in the running text use the normal font
 \ifdefined\ordbokprint
 \hypersetup{hidelinks} % no coloured link boxes on paper
 \newcommand{\signwidth}{0.32\textwidth} % foreword signatures, small enough to fit A5
 \newcommand{\forordgap}{0mm}
+\newcommand{\forordskip}{1mm}
+\setlength{\emergencystretch}{2em} % narrow A5 lines: stretch rather than overflow
+\newcommand{\nyttordboks}{QR-koden på baksiden} % the foreword points to the box with the form
 \else
+\newcommand{\nyttordboks}{boksen nederst på siden}
 \newcommand{\signwidth}{0.40\textwidth}
 \newcommand{\forordgap}{10mm}
+\newcommand{\forordskip}{5mm}
 \fi
 
 
