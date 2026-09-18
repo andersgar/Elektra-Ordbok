@@ -1,0 +1,54 @@
+name: Bygg og publiser ordboka
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ordbok-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # "Sist oppdatert" = last commit touching ordbok.yaml
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+
+      - name: Sjekk ordbok.yaml
+        run: python build.py --check
+
+      - name: Lag LaTeX
+        run: python build.py --tex-only
+
+      - name: Kompiler PDF
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: ordbok.tex
+          working_directory: build
+
+      - name: Lag nettside
+        run: python build.py --site public
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ordbok-pdf
+          path: build/ordbok.pdf
+
+      - name: Publiser til ordbok.garberg.wtf
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy  # settings in wrangler.jsonc

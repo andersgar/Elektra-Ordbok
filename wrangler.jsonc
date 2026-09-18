@@ -1,0 +1,9 @@
+// Static site on Cloudflare Workers: `python build.py --site public` fills ./public,
+// then `wrangler deploy` (done by GitHub Actions on every push to main).
+{
+  "name": "elektra-ordbok",
+  "compatibility_date": "2026-09-17",
+  "assets": { "directory": "./public" },
+  "routes": [{ "pattern": "ordbok.garberg.wtf", "custom_domain": true }],
+  "workers_dev": true
+}
