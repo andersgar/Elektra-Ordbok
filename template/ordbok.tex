@@ -24,7 +24,8 @@
 \ifdefined\ordbokprint
 \usepackage[a5paper,top=2cm,bottom=2cm,inner=1.8cm,outer=1.5cm,columnsep=20pt]{geometry}
 \else
-\usepackage[top=3.5cm,bottom=3.5cm,left=3.7cm,right=4.7cm,columnsep=30pt]{geometry} % Document margins and spacings
+% Digital only: equal margins, so the text doesn't jump left and right between pages.
+\usepackage[top=3.5cm,bottom=3.5cm,left=4.2cm,right=4.2cm,columnsep=30pt]{geometry}
 \fi
 \usepackage{graphicx}
 \usepackage{xcolor}
