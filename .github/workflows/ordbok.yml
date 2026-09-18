@@ -31,10 +31,14 @@ jobs:
       - name: Lag LaTeX
         run: python build.py --tex-only
 
-      - name: Kompiler PDF
+      - name: Kompiler PDF-er
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: ordbok.tex
+          # same order as ROOT_FILES in build.py: the booklet needs ordbok-a5.pdf
+          root_file: |
+            ordbok.tex
+            ordbok-a5.tex
+            ordbok-utskrift.tex
           working_directory: build
 
       - name: Lag nettside
@@ -43,7 +47,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: ordbok-pdf
-          path: build/ordbok.pdf
+          path: |
+            build/ordbok.pdf
+            build/ordbok-utskrift.pdf
 
       - name: Publiser til ordbok.garberg.wtf
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'

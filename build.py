@@ -30,6 +30,8 @@ ASSETS = ROOT / "assets"
 SITE = ROOT / "site"
 
 FIELDS = ("ord", "nynorsk", "stikkord", "id", "definisjon")
+# digital PDF, A5 print pages, A4 booklet of the A5 pages (keep in sync with the CI workflow)
+ROOT_FILES = ("ordbok.tex", "ordbok-a5.tex", "ordbok-utskrift.tex")
 NO_LETTER = "Ikke bokstav"
 MONTHS = ["januar", "februar", "mars", "april", "mai", "juni", "juli",
           "august", "september", "oktober", "november", "desember"]
@@ -214,8 +216,9 @@ def build(outdir, pdf=True):
     (outdir / "meta.tex").write_text(
         f"\\newcommand{{\\sistoppdatert}}{{{norsk_dato(last_updated())}}}\n", encoding="utf-8")
     if pdf:
-        subprocess.run(["latexmk", "-pdf", "-interaction=nonstopmode", "-halt-on-error", "ordbok.tex"],
-                       cwd=outdir, check=True)
+        for root in ROOT_FILES:  # order matters: the booklet imposes ordbok-a5.pdf
+            subprocess.run(["latexmk", "-pdf", "-interaction=nonstopmode", "-halt-on-error", root],
+                           cwd=outdir, check=True)
     return entries
 
 
@@ -225,6 +228,7 @@ def build_site(sitedir, pdf, entries):
         shutil.rmtree(sitedir)
     shutil.copytree(SITE, sitedir)
     shutil.copy(pdf, sitedir / "ordbok.pdf")
+    shutil.copy(pdf.with_name("ordbok-utskrift.pdf"), sitedir / "ordbok-utskrift.pdf")
     shutil.copy(ASSETS / "Elektra-Full-Horisontal-Gra.png", sitedir / "logo.png")
     shown = sum(1 for e in entries if e["definisjon"])
     index = sitedir / "index.html"
