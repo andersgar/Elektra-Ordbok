@@ -24,7 +24,8 @@
     background: var(--bar); border-bottom: 1px solid var(--line);
   }
   header a.home { font-weight: 700; color: var(--text); text-decoration: none; white-space: nowrap; margin-right: auto; }
-  header a.home span { color: var(--green); }
+  header a.home { display: inline-flex; align-items: center; gap: 2px; }
+  header a.home img { height: 26px; width: auto; display: block; }
   .search { flex: 0 1 220px; min-width: 0; height: 34px; padding: 0 10px; font: inherit;
     color: var(--text); background: var(--field); border: 1px solid var(--line); border-radius: 8px; }
   .search:focus { outline: 2px solid var(--green); outline-offset: -1px; }
@@ -51,7 +52,7 @@
 </head>
 <body>
 <header>
-  <a class="home" href="../" title="Til forsiden"><span>Elektra</span><b>-ordboka</b></a>
+  <a class="home" href="../" title="Til forsiden"><img src="../elektra-symbol.png" alt="Elektra"><b>-ordbok</b></a>
   <input class="search" id="search" type="search" placeholder="Søk …" aria-label="Søk i ordboka" enterkeyhint="search">
   <span class="page" id="page" aria-live="polite">–</span>
   <button id="zoomOut" title="Zoom ut" aria-label="Zoom ut">−</button>
