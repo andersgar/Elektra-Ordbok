@@ -36,6 +36,7 @@
   .primary:hover { filter: brightness(1.08); }
   .secondary { border: 1px solid var(--line); color: var(--text); }
   .secondary:hover { border-color: var(--green); }
+  .hint { margin: 8px 0 0; font: .8rem/1.4 system-ui, sans-serif; color: var(--muted); }
   footer { margin-top: 24px; font: .85rem/1.4 system-ui, sans-serif; color: var(--muted); }
   footer a { color: inherit; }
 </style>
@@ -47,6 +48,8 @@
   <p class="meta">{{ANTALL}} ord · sist oppdatert {{DATO}}</p>
   <a class="button primary" href="les/">Les ordboka</a>
   <a class="button secondary" href="https://github.com/andersgar/Elektra-Ordbok/issues/new?template=nytt-ord.yml">Foreslå et nytt ord</a>
+  <a class="button secondary" href="ordbok-utskrift.pdf" download="Elektra-ordbok-utskrift.pdf">Last ned utskriftsversjon</a>
+  <p class="hint">Hefte i A5: skriv ut tosidig på A4 og vend langs kortsiden, brett på midten og stift.</p>
   <footer>Mangler et ord? Forslag går til ordbokansvarlig før de kommer med.<br>
     <a href="ordbok.pdf">Last ned PDF</a> · <a href="https://github.com/andersgar/Elektra-Ordbok/blob/main/ordbok.yaml">Se kildefila</a></footer>
 </main>

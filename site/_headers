@@ -1,3 +1,7 @@
 /ordbok.pdf
   Content-Disposition: inline; filename="Elektra-ordbok.pdf"
   Cache-Control: public, max-age=300, must-revalidate
+
+/ordbok-utskrift.pdf
+  Content-Disposition: attachment; filename="Elektra-ordbok-utskrift.pdf"
+  Cache-Control: public, max-age=300, must-revalidate
