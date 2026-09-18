@@ -172,12 +172,20 @@ def render_text(text, resolve, where, errors):
 def render_entries(entries):
     resolve = resolver(entries)
     errors = []
-    lines, current = [], None
-    for e in sorted((e for e in entries if e["definisjon"]), key=lambda e: sort_key(e["ord"])):
+    visible = sorted((e for e in entries if e["definisjon"]), key=lambda e: sort_key(e["ord"]))
+    # Thumb-index tabs (print version): one tab per letter section, numbered from 1.
+    sections = list(dict.fromkeys(section_of(e["ord"]) for e in visible))
+    lines = [rf"\ordboksettabs{{{len(sections)}}}"]
+    lines += [rf"\ordboktabletter{{{i}}}{{{'#' if s == NO_LETTER else s}}}"
+              .replace("{#}", r"{\#}") for i, s in enumerate(sections, 1)]
+    lines.append("")
+    current = None
+    for e in visible:
         section = section_of(e["ord"])
         if section != current:
             current = section
-            lines += [f"\\section*{{{section}}}", r"\hspace*{1em}", ""]
+            lines += [f"\\section*{{{section}}}", rf"\ordboksetletter{{{sections.index(section) + 1}}}",
+                      r"\hspace*{1em}", ""]
         head = []
         if e["nynorsk"]:
             head.append(f"({esc(e['nynorsk'])})")
