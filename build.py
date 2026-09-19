@@ -184,8 +184,9 @@ def render_entries(entries):
         section = section_of(e["ord"])
         if section != current:
             current = section
+            # \nopagebreak keeps the letter heading on the same page as its first word
             lines += [f"\\section*{{{section}}}", rf"\ordboksetletter{{{sections.index(section) + 1}}}",
-                      r"\hspace*{1em}", ""]
+                      r"\hspace*{1em}", "", r"\nopagebreak"]
         head = []
         if e["nynorsk"]:
             head.append(f"({esc(e['nynorsk'])})")
