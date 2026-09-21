@@ -51,6 +51,76 @@ jobs:
             Closes #${{ github.event.issue.number }}
           labels: nytt-ord
 
+      # The PDF is built here, in the trusted workflow, so no one has to approve a run.
+      # It is uploaded as a Cloudflare preview version with its own URL; production
+      # (ordbok.garberg.wtf) is untouched until the pull request is merged.
+      - name: Hent PR-grenen
+        if: steps.cpr.outputs.pull-request-number != ''
+        run: |
+          git fetch origin "$GREN"
+          git checkout "$GREN"
+        env:
+          GREN: nytt-ord/issue-${{ github.event.issue.number }}
+
+      - name: Lag LaTeX
+        if: steps.cpr.outputs.pull-request-number != ''
+        run: python build.py --tex-only
+
+      - name: Kompiler PDF-er
+        if: steps.cpr.outputs.pull-request-number != ''
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: |
+            ordbok.tex
+            ordbok-a5.tex
+            ordbok-utskrift.tex
+          working_directory: build
+
+      - name: Lag nettside
+        if: steps.cpr.outputs.pull-request-number != ''
+        run: python build.py --site public
+
+      - name: Last opp forhåndsvisning
+        id: preview
+        if: steps.cpr.outputs.pull-request-number != ''
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4.134.0"
+          command: >-
+            versions upload --preview-alias sak-${{ github.event.issue.number }}
+            --message "Nytt ord: ${{ steps.entry.outputs.ord }} (sak ${{ github.event.issue.number }})"
+
+      - name: Finn lenken til forhåndsvisningen
+        id: lenke
+        if: steps.preview.outcome == 'success'
+        env:
+          UTDATA: ${{ steps.preview.outputs.command-output }}
+        run: |
+          url=$(printf '%s' "$UTDATA" | grep -oE 'https://sak-[0-9]+-[A-Za-z0-9.-]+\.workers\.dev' | head -1)
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+          echo "Forhåndsvisning: ${url:-fant ingen lenke}"
+
+      - name: Kommenter forhåndsvisningen i PR-en
+        if: steps.lenke.outputs.url != ''
+        uses: actions/github-script@v7
+        env:
+          URL: ${{ steps.lenke.outputs.url }}
+          PR: ${{ steps.cpr.outputs.pull-request-number }}
+        with:
+          script: |
+            const url = process.env.URL, pr = Number(process.env.PR)
+            const marker = '<!-- ordbok-forhandsvisning -->'
+            const body = `${marker}\n**Forhåndsvisning av ordboka med dette ordet:**\n\n`
+              + `- [Les i nettleseren](${url}/les/)\n`
+              + `- [PDF](${url}/ordbok.pdf) · [utskriftsversjon](${url}/ordbok-utskrift.pdf)\n\n`
+              + `Oppdateres hvis saken endres. ordbok.garberg.wtf endres først når denne PR-en merges.`
+            const { data: comments } = await github.rest.issues.listComments({ ...context.repo, issue_number: pr })
+            const old = comments.find(c => c.body.includes(marker))
+            if (old) await github.rest.issues.updateComment({ ...context.repo, comment_id: old.id, body })
+            else await github.rest.issues.createComment({ ...context.repo, issue_number: pr, body })
+
       - name: Svar i saken
         if: steps.cpr.outputs.pull-request-operation == 'created'
         uses: actions/github-script@v7
